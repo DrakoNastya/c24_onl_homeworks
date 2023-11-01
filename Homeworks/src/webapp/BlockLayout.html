@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block layout</title>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <h3>HEADER</h3>
+
+    </div>
+    <div id="content">
+        <h3>CONTENT</h3>
+    </div>
+    <div id="sidebar">
+        <h3>SIDEBAR</h3>
+    </div>
+    <div id="footer">
+        <h3>FOOTER</h3>
+    </div>
+</div>
+<style>
+    body {
+
+        width: 500px;
+        height: 600px;
+        color: aliceblue;
+        vertical-align: middle;
+        text-align: center;
+
+        #header {
+            background-color: lightseagreen;
+            height: 90px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        #sidebar {
+            background-color: blue;
+            width: 150px;
+            float: left;
+            height: 450px;
+        }
+
+        #content {
+            background-color: darkgray;
+            margin-right: auto;
+            margin-left: auto;
+            float: right;
+            width: 350px;
+            height: 450px;
+        }
+
+        #footer {
+            background-color: black;
+            clear: left;
+            width: 500px;
+            margin-right: auto;
+            margin-left: auto;
+            height: 60px;
+        }}
+
+</style>
+</body>
+</html>
