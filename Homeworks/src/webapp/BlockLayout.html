@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block layout</title>
+    <style>
+        body {
+            width: 1800px;
+            height: auto;
+            vertical-align: middle;
+            text-align: center;
+            color: aliceblue;
+
+        }
+
+        #header {
+            background-color: lightseagreen;
+            height: 90px;
+            width: 1800px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        #sidebar {
+            background-color: blue;
+            width: 200px;
+            float: left;
+            height: 650px;
+        }
+
+        #content {
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            float: right;
+            background-color: darkgray;
+            width: 1600px;
+            height: 650px;
+        }
+
+        #footer {
+            background-color: black;
+            clear: left;
+            width: auto;
+            margin-right: auto;
+            margin-left: auto;
+            height: 60px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <h3>HEADER</h3>
+    </div>
+    <div id="content">
+        <h3>CONTENT</h3>
+    </div>
+    <div id="sidebar">
+        <h3>SIDEBAR</h3>
+    </div>
+    <div id="footer">
+        <h3>FOOTER</h3>
+    </div>
+</div>
+
+</body>
+</html>
